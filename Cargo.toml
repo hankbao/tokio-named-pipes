@@ -11,8 +11,8 @@ Windows named pipe bindings for tokio.
 """
 
 [dependencies]
-mio = "0.6"
-tokio = "0.1"
-mio-named-pipes = "0.1"
+mio = { git = "https://github.com/hankbao/mio.git", branch = "v0.6.x-windows" }
+tokio = { git = "https://github.com/hankbao/tokio.git", branch = "v0.1.x-windows" }
+mio-named-pipes = { git = "https://github.com/hankbao/mio-named-pipes.git", branch = "custom" }
 futures = "0.1"
 bytes = "0.4"
